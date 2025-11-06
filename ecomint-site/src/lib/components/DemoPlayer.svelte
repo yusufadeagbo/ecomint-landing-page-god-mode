@@ -16,7 +16,7 @@
     </div>
 
     <div class="relative max-w-4xl mx-auto">
-      <div class="aspect-video bg-gradient-to-br from-[var(--color-evergreen)] to-[#0a2a20] rounded-2xl shadow-2xl overflow-hidden">
+      <div class="aspect-video bg-gradient-to-br from-[var(--color-evergreen)] to-[#0a2a20] rounded-2xl border-4 border-[var(--color-emerald)] overflow-hidden">
         <div class="w-full h-full flex items-center justify-center relative">
           <div class="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
             <button

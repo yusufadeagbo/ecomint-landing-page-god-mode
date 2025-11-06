@@ -4,7 +4,7 @@
   export let icon = 'check';
 </script>
 
-<div class="bg-white p-6 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+<div class="bg-white p-6 rounded-xl border-2 border-gray-200 hover:border-[var(--color-emerald)] transition-all duration-300">
   <div class="flex items-start space-x-4">
     <div class="flex-shrink-0">
       <div class="w-12 h-12 bg-[var(--color-emerald)] bg-opacity-10 rounded-lg flex items-center justify-center">

@@ -1,5 +1,6 @@
 import { c as create_ssr_component, v as validate_component, b as add_attribute } from "../../../chunks/ssr.js";
-import { H as Hero, F as FeatureCard, C as CTABanner } from "../../../chunks/CTABanner.js";
+import { H as Hero } from "../../../chunks/Hero.js";
+import { F as FeatureCard, C as CTABanner } from "../../../chunks/CTABanner.js";
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let operatorCode = "";
   return `${$$result.head += `<!-- HEAD_svelte-11jhslz_START -->${$$result.title = `<title>EcoMint for Agents | Collect smarter, earn more</title>`, ""}<meta name="description" content="Download the EcoMint Agent app for faster routes, verified payments, and better earnings. Join thousands of agents nationwide."><!-- HEAD_svelte-11jhslz_END -->`, ""} ${validate_component(Hero, "Hero").$$render(
