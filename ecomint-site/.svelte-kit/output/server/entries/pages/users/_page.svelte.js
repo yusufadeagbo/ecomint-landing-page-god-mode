@@ -1,5 +1,6 @@
 import { c as create_ssr_component, v as validate_component } from "../../../chunks/ssr.js";
-import { H as Hero, F as FeatureCard, C as CTABanner } from "../../../chunks/CTABanner.js";
+import { H as Hero } from "../../../chunks/Hero.js";
+import { F as FeatureCard, C as CTABanner } from "../../../chunks/CTABanner.js";
 const Page = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   return `${$$result.head += `<!-- HEAD_svelte-1ygycx3_START -->${$$result.title = `<title>EcoMint for Users | Schedule pickups in 60 seconds</title>`, ""}<meta name="description" content="Download EcoMint to schedule waste pickups, pay securely, and earn rewards. Simple, transparent, sustainable."><!-- HEAD_svelte-1ygycx3_END -->`, ""} ${validate_component(Hero, "Hero").$$render(
     $$result,

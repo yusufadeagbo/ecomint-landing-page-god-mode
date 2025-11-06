@@ -16,12 +16,23 @@
       "_ssr.js"
     ]
   },
+  "_Hero.js": {
+    "file": "chunks/Hero.js",
+    "name": "Hero",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
   "_LearningArticle.js": {
     "file": "chunks/LearningArticle.js",
     "name": "LearningArticle",
     "imports": [
       "_ssr.js"
     ]
+  },
+  "_VerificationBadge.svelte_svelte_type_style_lang.js": {
+    "file": "_app/immutable/assets/VerificationBadge.Cdgn875O.css",
+    "src": "_VerificationBadge.svelte_svelte_type_style_lang.js"
   },
   "_environment.js": {
     "file": "chunks/environment.js",
@@ -120,11 +131,13 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
+      "_Hero.js",
       "_CTABanner.js",
       "_LearningArticle.js"
     ],
     "css": [
-      "_app/immutable/assets/_page.Bu8OjcJe.css"
+      "_app/immutable/assets/_page.Bui9xz3B.css",
+      "_app/immutable/assets/VerificationBadge.Cdgn875O.css"
     ]
   },
   "src/routes/agents/+page.svelte": {
@@ -134,6 +147,7 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
+      "_Hero.js",
       "_CTABanner.js"
     ]
   },
@@ -167,6 +181,9 @@
     "imports": [
       "_ssr.js",
       "_CTABanner.js"
+    ],
+    "css": [
+      "_app/immutable/assets/VerificationBadge.Cdgn875O.css"
     ]
   },
   "src/routes/users/+page.svelte": {
@@ -176,6 +193,7 @@
     "isEntry": true,
     "imports": [
       "_ssr.js",
+      "_Hero.js",
       "_CTABanner.js"
     ]
   }

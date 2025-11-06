@@ -2,6 +2,7 @@
   import Hero from '$lib/components/Hero.svelte';
   import CoverageChecker from '$lib/components/CoverageChecker.svelte';
   import SubscriptionTiers from '$lib/components/SubscriptionTiers.svelte';
+  import HowItWorks from '$lib/components/HowItWorks.svelte';
   import VerificationBadge from '$lib/components/VerificationBadge.svelte';
   import AudienceChooser from '$lib/components/AudienceChooser.svelte';
   import FeatureCard from '$lib/components/FeatureCard.svelte';
@@ -86,82 +87,10 @@
   </div>
 </section>
 
+<!-- How It Works Section -->
+<HowItWorks />
+
 <AudienceChooser />
-
-<section class="py-16 bg-white">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl md:text-4xl font-bold text-[var(--color-night)] mb-4">The Problem & Opportunity</h2>
-      <p class="text-lg text-[var(--color-gray)] max-w-3xl mx-auto">
-        Waste collection in cities is inefficient, leading to low revenue for collectors and payment leakage for operators.
-        EcoMint brings transparency, efficiency, and verified payments to every pickup.
-      </p>
-    </div>
-  </div>
-</section>
-
-<section class="py-16 bg-[var(--color-fog)]">
-  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-12">
-      <h2 class="text-3xl md:text-4xl font-bold text-[var(--color-night)] mb-4">How EcoMint Solves It</h2>
-      <p class="text-lg text-[var(--color-gray)] max-w-2xl mx-auto mb-12">
-        Three powerful pillars working together to transform waste collection
-      </p>
-    </div>
-
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div class="text-center space-y-4">
-        <div class="w-20 h-20 bg-[var(--color-emerald)] bg-opacity-10 rounded-full flex items-center justify-center mx-auto">
-          <svg class="w-10 h-10 text-[var(--color-emerald)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-          </svg>
-        </div>
-        <h3 class="text-xl font-semibold text-[var(--color-night)]">Secure Payments</h3>
-        <p class="text-[var(--color-gray)]">Eco QR ensures every transaction is verified, reducing payment leakage and building trust</p>
-        <a href="/learning" class="inline-flex items-center text-[var(--color-emerald)] font-medium">
-          Learn more
-          <svg class="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-          </svg>
-        </a>
-      </div>
-
-      <div class="text-center space-y-4">
-        <div class="w-20 h-20 bg-[var(--color-emerald)] bg-opacity-10 rounded-full flex items-center justify-center mx-auto">
-          <svg class="w-10 h-10 text-[var(--color-emerald)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-          </svg>
-        </div>
-        <h3 class="text-xl font-semibold text-[var(--color-night)]">Smart Logistics</h3>
-        <p class="text-[var(--color-gray)]">Intelligent routing and agent management optimizes coverage and reduces response times</p>
-        <a href="/operators" class="inline-flex items-center text-[var(--color-emerald)] font-medium">
-          For Operators
-          <svg class="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-          </svg>
-        </a>
-      </div>
-
-      <div class="text-center space-y-4">
-        <div class="w-20 h-20 bg-[var(--color-emerald)] bg-opacity-10 rounded-full flex items-center justify-center mx-auto">
-          <svg class="w-10 h-10 text-[var(--color-emerald)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
-          </svg>
-        </div>
-        <h3 class="text-xl font-semibold text-[var(--color-night)]">Data & Rewards</h3>
-        <p class="text-[var(--color-gray)]">Track environmental impact and earn rewards while building sustainable communities</p>
-        <a href="/users" class="inline-flex items-center text-[var(--color-emerald)] font-medium">
-          For Users
-          <svg class="w-4 h-4 ml-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-          </svg>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
-
-<DemoPlayer />
 
 <section class="py-16 bg-[var(--color-fog)]">
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
