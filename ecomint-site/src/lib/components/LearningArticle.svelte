@@ -8,7 +8,7 @@
 
 <a
   {href}
-  class="group block bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all duration-300 border border-transparent hover:border-[var(--color-emerald)]"
+  class="group block bg-white p-6 rounded-lg transition-all duration-300 border-2 border-gray-200 hover:border-[var(--color-emerald)]"
 >
   <div class="flex items-start justify-between mb-3">
     <span class="inline-block px-3 py-1 text-xs font-semibold text-[var(--color-emerald)] bg-[var(--color-emerald)] bg-opacity-10 rounded-full">

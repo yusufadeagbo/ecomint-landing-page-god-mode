@@ -4,7 +4,7 @@
     <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <a
         href="/users"
-        class="group bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-[var(--color-emerald)] transform hover:-translate-y-1"
+        class="group bg-white p-8 rounded-xl transition-all duration-300 border-2 border-gray-200 hover:border-[var(--color-emerald)] transform hover:-translate-y-1"
       >
         <div class="flex flex-col items-center text-center space-y-4">
           <div class="w-16 h-16 bg-[var(--color-emerald)] bg-opacity-10 rounded-full flex items-center justify-center group-hover:bg-opacity-20 transition-colors duration-300">
@@ -25,7 +25,7 @@
 
       <a
         href="/operators"
-        class="group bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-[var(--color-emerald)] transform hover:-translate-y-1"
+        class="group bg-white p-8 rounded-xl transition-all duration-300 border-2 border-gray-200 hover:border-[var(--color-emerald)] transform hover:-translate-y-1"
       >
         <div class="flex flex-col items-center text-center space-y-4">
           <div class="w-16 h-16 bg-[var(--color-emerald)] bg-opacity-10 rounded-full flex items-center justify-center group-hover:bg-opacity-20 transition-colors duration-300">
@@ -46,7 +46,7 @@
 
       <a
         href="/agents"
-        class="group bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 border-2 border-transparent hover:border-[var(--color-emerald)] transform hover:-translate-y-1"
+        class="group bg-white p-8 rounded-xl transition-all duration-300 border-2 border-gray-200 hover:border-[var(--color-emerald)] transform hover:-translate-y-1"
       >
         <div class="flex flex-col items-center text-center space-y-4">
           <div class="w-16 h-16 bg-[var(--color-emerald)] bg-opacity-10 rounded-full flex items-center justify-center group-hover:bg-opacity-20 transition-colors duration-300">

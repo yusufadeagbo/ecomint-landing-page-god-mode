@@ -1,5 +1,8 @@
 <script>
   import Hero from '$lib/components/Hero.svelte';
+  import CoverageChecker from '$lib/components/CoverageChecker.svelte';
+  import SubscriptionTiers from '$lib/components/SubscriptionTiers.svelte';
+  import VerificationBadge from '$lib/components/VerificationBadge.svelte';
   import AudienceChooser from '$lib/components/AudienceChooser.svelte';
   import FeatureCard from '$lib/components/FeatureCard.svelte';
   import DemoPlayer from '$lib/components/DemoPlayer.svelte';
@@ -9,11 +12,11 @@
 </script>
 
 <svelte:head>
-  <title>EcoMint | Turn waste into value with smart pickups and secure payments</title>
-  <meta name="description" content="EcoMint connects residents, collectors, and operators with location-aware pickups, secure Eco QR payments, and real-time tracking. Simple, verified, sustainable." />
-  <meta name="keywords" content="waste collection, eco qr, ecomint, recycling, waste management, nigeria, lagos, abuja, pickup service" />
-  <meta property="og:title" content="EcoMint | Turn waste into value" />
-  <meta property="og:description" content="Simple pickups, precise payments. EcoMint connects residents, collectors, and operators with location-aware waste collection." />
+  <title>EcoMint | Verified Operators. Flexible Waste Collection Subscriptions.</title>
+  <meta name="description" content="Subscribe to weekly, bi-weekly, or tri-weekly waste collection from verified operators in Lagos, Abuja, and Port Harcourt. Check your area coverage instantly." />
+  <meta name="keywords" content="waste collection subscription, verified operators, weekly pickup, waste management, nigeria, lagos, abuja, port harcourt, recurring waste service" />
+  <meta property="og:title" content="EcoMint | Verified Operators. Flexible Subscriptions." />
+  <meta property="og:description" content="Subscribe to weekly, bi-weekly, or tri-weekly waste collection from verified operators. Transparent pricing, reliable service." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://ecomint.example" />
   <meta name="twitter:card" content="summary_large_image" />
@@ -65,9 +68,23 @@
 </svelte:head>
 
 <Hero
-  title="Turn waste into value — simple pickups, precise payments"
-  subtitle="EcoMint connects residents, collectors, and operators with location-aware pickups, secure Eco QR payments, and real-time tracking."
+  title="Verified Operators. Flexible Subscriptions."
+  subtitle="Subscribe to weekly, bi-weekly, or tri-weekly waste collection from verified operators in your area. Transparent pricing, reliable service."
 />
+
+<!-- Coverage Checker Section -->
+<section id="coverage" class="py-20 bg-white">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <CoverageChecker />
+  </div>
+</section>
+
+<!-- Subscription Tiers Section -->
+<section class="py-20 bg-gradient-to-br from-green-50 to-emerald-50">
+  <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <SubscriptionTiers />
+  </div>
+</section>
 
 <AudienceChooser />
 

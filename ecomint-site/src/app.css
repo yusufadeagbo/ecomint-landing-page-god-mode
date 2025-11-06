@@ -3,8 +3,13 @@
 @tailwind utilities;
 
 :root {
+  /* Primary Brand Colors */
   --color-evergreen: #0d3d2e;
   --color-emerald: #10b981;
+  --color-emerald-dark: #059669;
+  --color-emerald-light: #d1fae5;
+
+  /* Text & Neutral Colors */
   --color-night: #111827;
   --color-white: #ffffff;
   --color-fog: #f9fafb;
@@ -12,11 +17,36 @@
   --color-dust: #e5e7eb;
   --color-gray: #6b7280;
   --color-gray-dark: #9ca3af;
-  --color-gold: #fbbf24;
 
+  /* Accent & Feature Colors */
+  --color-gold: #fbbf24;
+  --color-blue: #3b82f6;
+  --color-blue-light: #dbeafe;
+  --color-cyan: #06b6d4;
+  --color-cyan-light: #cffafe;
+
+  /* Trust & Verification Colors */
+  --color-verified: #10b981;
+  --color-verified-bg: #dcfce7;
+  --color-verified-border: #86efac;
+
+  /* Status Colors */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-error: #ef4444;
+  --color-info: #3b82f6;
+
+  /* Zone-Specific Backgrounds */
+  --bg-hero: linear-gradient(135deg, #0d3d2e 0%, #065f46 100%);
+  --bg-coverage: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+  --bg-subscription: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  --bg-neutral: #ffffff;
+
+  /* Typography */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   --font-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 
+  /* Spacing Scale */
   --spacing-xs: 0.5rem;
   --spacing-sm: 0.75rem;
   --spacing-md: 1rem;
@@ -26,16 +56,19 @@
   --spacing-3xl: 4rem;
   --spacing-4xl: 6rem;
 
+  /* Border Radius */
   --radius-sm: 0.375rem;
   --radius-md: 0.5rem;
   --radius-lg: 0.75rem;
   --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
 
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  /* Minimal Shadows - Reduced for cleaner design */
+  --shadow-subtle: 0 1px 2px 0 rgb(0 0 0 / 0.03);
+  --shadow-border: 0 0 0 1px rgb(0 0 0 / 0.05);
+  --shadow-focus: 0 0 0 3px rgb(16 185 129 / 0.2);
 
+  /* Transitions */
   --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-base: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-slow: 350ms cubic-bezier(0.4, 0, 0.2, 1);

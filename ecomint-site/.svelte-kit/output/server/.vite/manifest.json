@@ -104,7 +104,7 @@
       "_ssr.js"
     ],
     "css": [
-      "_app/immutable/assets/_layout.BBH9c2lJ.css"
+      "_app/immutable/assets/_layout.CHG1gEu0.css"
     ]
   },
   "src/routes/+layout.ts": {
@@ -122,6 +122,9 @@
       "_ssr.js",
       "_CTABanner.js",
       "_LearningArticle.js"
+    ],
+    "css": [
+      "_app/immutable/assets/_page.Bu8OjcJe.css"
     ]
   },
   "src/routes/agents/+page.svelte": {

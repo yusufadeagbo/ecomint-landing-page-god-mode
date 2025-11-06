@@ -4,7 +4,7 @@
     <p class="text-[var(--color-gray)]">Currently serving major cities across Nigeria</p>
   </div>
 
-  <div class="aspect-video bg-white rounded-lg shadow-md p-8 flex items-center justify-center">
+  <div class="aspect-video bg-white rounded-lg border-2 border-gray-200 p-8 flex items-center justify-center">
     <div class="text-center space-y-6">
       <svg class="w-24 h-24 mx-auto text-[var(--color-emerald)]" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
